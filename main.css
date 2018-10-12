@@ -1,0 +1,39 @@
+nav {
+    width: 100%;
+    height: 60px; 
+    background-color: lightblue;
+    border: 10px;
+    border-color: #000;
+  }
+    nav a {
+      display: block; 
+    float: right;
+/*We're just setting up fonts settings here*/
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 13px;
+    color:rgb(59, 59, 59);
+    
+   /*Padding Our Box*/
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+   }
+    nav a:hover {
+        text-decoration-line: underline;
+        
+ 
+    }
+    #logo {
+        float: left;
+        font-size:30px;
+        letter-spacing: -2px;
+        text-shadow: 1px 1px 2px #c4c4c4;
+        text-decoration: none;
+    /*box*/
+        padding-left: 20px;
+        padding-right: 40px;
+        margin-right: 10px;
+        margin-top: -20px;
+    }
