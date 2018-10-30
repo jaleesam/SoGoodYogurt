@@ -7,8 +7,8 @@ body{
     /* background-color: lightblue; */
     border-top: solid 1px rgb(59,59,59);
     border-bottom:solid 1px rgb(59,59,59);
-    
-    background-color: rgba(255, 255, 255, 0.7)
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 150;
   }
     nav a {
       display: block; 
@@ -16,7 +16,7 @@ body{
 /*We're just setting up fonts settings here*/
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     font-size: 13px;
-    color:rgb(59, 59, 59);
+    color:rgba(59, 59, 59, 0.596);
     
    /*Padding Our Box*/
     padding-top: 20px;
@@ -35,6 +35,7 @@ body{
         font-size:30px;
         letter-spacing: -2px;
         text-shadow: 1px 1px 2px #c4c4c4;
+        color:rgba(59, 59, 59);
         text-decoration: none;
     /*box*/
         padding-left: 20px;
